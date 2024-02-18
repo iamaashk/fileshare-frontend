@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import { uploadFile } from './services/api';
 import './App.css';
 import { useRef, useState, useEffect } from 'react';
