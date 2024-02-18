@@ -26,9 +26,7 @@ function App() {
   const onUploadClick=()=>{
     fileInputRef.current.click();
   }
-  const onChange = (e) => {
-    setFile(e.target.files[0]);
-  }
+
   console.log(file);
   return (
     <div className = "container">
