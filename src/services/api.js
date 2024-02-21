@@ -6,6 +6,7 @@ export const uploadFile =async (data)=>{
        return response.data;
     } catch (error) {
         console.error('Error while calling api', error.message);
+        throw error;
     }
 }
 
