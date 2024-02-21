@@ -1,5 +1,5 @@
 import axios from 'axios';
-const API_URL = `https://fileshare-backed-iamaashk.onrender.com`;
+const API_URL = `https://fileshare-backend-iamaashk.netlify.app`;
 export const uploadFile =async (data)=>{
     try {
        let response  = await axios.post(`${API_URL}/upload`,data);
